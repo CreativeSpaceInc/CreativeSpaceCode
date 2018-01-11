@@ -1,0 +1,41 @@
+“/login”
+username: MNagasu
+password: MNagasu
+
+“/signup”
+displayname: “ArtistOnIce”
+username: MNagasu
+password: MNagasu
+
+“/upload”
+url:  “https://www.youtube.com/watch?v=Hsp-7S79IYI”
+medium: “Video”
+title: “2010 Olympic Games”
+description: “Free style program skated to Carmen by Angele Dubeau and La Pieta.”
+
+“/upload”
+url:  “https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG”
+medium: “Artwork”
+title: “Spiral”
+description: “Performed in 2010 to Memoirs of a Geisha by John Williams. I built up a lot of flexibility from years of practice, and combined this ability with a costume that was custom-designed to complete the aesthetic package I hoped to achieve.”
+
+“/upload”
+url:  “http://www.insideskating.net/wp-content/uploads/2018/01/1-Mirai-Nagasu-SP-2017-Rostelecom-Cup-opening-photo.jpg”
+medium: “Artwork”
+title: “Lunge”
+description: “2017 Rostelecom Cup Opening short program performance.”
+
+“/upload”
+url: “https://coachtomz.com/wp-content/uploads/2016/08/mn-02.jpg”
+medium: “Artwork”
+title: “exhibition”
+description: “The lighting in the background serves to complement my costume, the tone of the music, my facial expression, and the overall tranquil emotion I am trying to convey.”
+
+displayname: “ArtistOnIce”
+avatar: “http://www.lifeskate.com/.a/6a00e54f7ecf2c883301348612c5c1970c-pi”
+bio: “My name is Mirai Nagasu.  I am a competitive figure skater representing the United States.  I am a six-time national medalist.  I am proud of my opportunities to express myself artistically through the medium of ice skating.”
+
+username: MNagasu
+email: “MNagasu@gmail.com”
+occupation: “Amateur Figure Skater”
+location: “Colorado, United States”
