@@ -12,6 +12,7 @@ import Signup from "./pages/SignUp";
 import Upload from "./pages/Upload";
 import Test from "./pages/Test"
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 // import Artists from "./pages/Artists";
 import Footer from "./components/Footer";
@@ -160,6 +161,7 @@ class App extends React.Component{
           {!this.state.loggedIn ?(
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/artists/:id" component={Detail} />
               <Route exact path="/detail" component={Detail} />
               <Route exact path="/editprofile" component={Editprofile} />
@@ -194,6 +196,7 @@ class App extends React.Component{
           ) : (
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/" component={NoMatch} />
               <Route exact path="/signup" component={Profile} />
               <Route exact path="/test" component={Test} />
