@@ -6,7 +6,7 @@ import { CarA, CarDiv, CarImg, CarItem, CarLi } from "../../components/Carousel"
 import { Col, Container, Row } from "../../components/Grid";
 import { Nav, NavLi } from "../../components/Nav";
 
-class Home extends Component {
+class VideoHome extends Component {
   state = {
     artist: "5a34a9d1afaabc1820db0b32"
   };
@@ -23,7 +23,7 @@ class Home extends Component {
           <NavLi href="/login">Log in</NavLi>
           <NavLi href="/signup">Sign up</NavLi>          
         </Nav>
-        <br /><br />
+        <br />
         <Row>
           <div className="col-lg-3 col-md-3">
             <h2 className="my-4 rotate">Browse Creations:</h2>
@@ -34,6 +34,7 @@ class Home extends Component {
               <a href="#" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
+          <br /><br />
           <div id="carouselExampleSlidesOnly" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
             <CarDiv>
               <ol className="carousel-indicators" style={{borderBottom:"0px"}}>
@@ -44,30 +45,10 @@ class Home extends Component {
                 
               </ol>
               <CarItem className="carousel-item active">
-                <CarImg 
-                  src={ require('./turtleriders.jpg') } 
-                  alt="Turtle Riders"></CarImg>
+                
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/vmbcJm96L5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </CarItem>
-              <CarItem>
-                <CarImg 
-                  src={ require('./waite2.jpg') } 
-                  alt="Virtually, Actually"></CarImg>
-              </CarItem>
-              <CarItem>
-                <CarImg 
-                  src={ require('./dagger.jpg') } 
-                  alt="Dagger"></CarImg>
-              </CarItem>
-              <CarItem>
-                <CarImg 
-                  src={ require('./gameassets.png') }
-                  alt="Game Assets"></CarImg>
-              </CarItem>
-               <CarItem>
-                <CarImg 
-                  src={ require('./waite1.jpg') }
-                  alt="Black Palimpsest"></CarImg>
-              </CarItem>
+          
             </CarDiv>
             <CarA 
               className="carousel-control-prev" 
@@ -82,56 +63,32 @@ class Home extends Component {
               <span className="sr-only">Next</span>
             </CarA>
           </div>
-        </Row>
-        <br /><br />
-        <Row>
 
+        </Row>
+        <br />
+        <Row>
+         <Col size="sm-6 md-3" className="mb-4" name="1">
+            <a href="/">
+              <iframe width="210" height="160" src="https://www.youtube.com/embed/TwoUDtDdd6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              
+              <p>Hola Hola Dance Cover | PinkSoda</p>
+            </a>
+          </Col>
           <Col size="sm-6 md-3" className="mb-4" name="1">
             <a href="/">
-              <ArchImg
-                src={ require('./gameassets.png') }
-
-                name="1">
-              </ArchImg>
-              <p>Game assets | Margwli</p>
+              <iframe width="210" height="160" src="https://www.youtube.com/embed/vmbcJm96L5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              
+              <p>Rumor Dance Cover | PinkSoda</p>
             </a>
           </Col>
-          <Col size="sm-6 md-3" className="mb-4" name="2">
+           
+           <Col size="sm-6 md-3" className="mb-4" name="1">
             <a href="/">
-              <ArchImg
-                src={ require('./waite2.jpg') }
-                name="2" />
-              <p>Virtually, Actually | James Waite</p>
+              <iframe width="210" height="160" src="https://www.youtube.com/embed/gMUuo9oN2T4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              
+              <p>Oh NaNa Dance Cover | PinkSoda</p>
             </a>
           </Col>
-          <Col size="sm-6 md-3" className="mb-4" name="3">
-            <a href="/">
-              <ArchImg
-                src={ require('./turtleriders.jpg') }
-                name="3" />
-              <p>Turtle Riders | Margwli</p>
-            </a>
-          </Col>
-          
-          <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
-              <ArchImg
-                src={ require('./dagger.jpg') } 
-                style= {{height:'200px'}}
-                name="4" />
-              <p>Dagger | Margwli</p>
-            </a>
-          </Col>
-          <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
-              <ArchImg
-                src={ require('./waite1.jpg') } 
-                style= {{height:'200px'}}
-                name="4" />
-              <p>Black Palimpsest| James Waite</p>
-            </a>
-          </Col>
-
         </Row>
            
       </Container>
@@ -139,5 +96,5 @@ class Home extends Component {
     );
   }
 }
-export default Home;
+export default VideoHome;
 
