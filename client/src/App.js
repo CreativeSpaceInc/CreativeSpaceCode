@@ -15,6 +15,7 @@ import Home from "./pages/Home";
 import VideoHome from "./pages/VideoHome";
 import MusicHome from "./pages/MusicHome";
 import About from "./pages/About";
+import { OnePage, Waite2, Dagger, Turtle, Assets, Guitar1, Guitar2, Pinksoda1, Pinksoda2, Pinksoda3} from "./pages/OnePage";
 
 
 // import Artists from "./pages/Artists";
@@ -172,6 +173,19 @@ class App extends React.Component{
               <Route exact path="/detail" component={Detail} />
               <Route exact path="/editprofile" component={Editprofile} />
               <Route exact path="/profile" component={Profile} />
+              //
+              <Route exact path="/game" component={Assets} />
+              <Route exact path="/dagger" component={Dagger} />
+              <Route exact path="/guitar1" component={Guitar1} />
+              <Route exact path="/guitar2" component={Guitar2} />
+              <Route exact path="/onepage" component={OnePage} />
+              <Route exact path="/pinksoda1" component={Pinksoda1} />
+              <Route exact path="/pinksoda2" component={Pinksoda2} />
+              <Route exact path="/pinksoda3" component={Pinksoda3} />
+              <Route exact path="/turtle" component={Turtle} />
+              <Route exact path="/waite2" component={Waite2} />
+              //
+            
               <Route exact path="/login"
                 render={() => <Login
                   username = {this.state.username}
@@ -211,6 +225,17 @@ class App extends React.Component{
               <Route exact path="/test" component={Test} />
               <Route exact path="/artists/:id" componpent={Detail} />
               <Route exact path="/detail" component={Detail} />
+              
+               <Route exact path="/game" component={Assets} />
+              <Route exact path="/dagger" component={Dagger} />
+              <Route exact path="/guitar1" component={Guitar1} />
+              <Route exact path="/guitar2" component={Guitar2} />
+              <Route exact path="/onepage" component={OnePage} />
+              <Route exact path="/pinksoda1" component={Pinksoda1} />
+              <Route exact path="/pinksoda2" component={Pinksoda2} />
+              <Route exact path="/pinksoda3" component={Pinksoda3} />
+              <Route exact path="/turtle" component={Turtle} />
+              <Route exact path="/waite2" component={Waite2} />
 
 
               <Route exact path="/editprofile" component={Editprofile} />
@@ -230,9 +255,7 @@ class App extends React.Component{
             </Switch>
           )}
         </Router>
-        <p>Status is {this.state.displayname}</p>
-        <p>Status is {this.state.username}</p>
-        <p>Status is {this.state.password}</p>
+        
         <Footer />
       </div>
     );
