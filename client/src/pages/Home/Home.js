@@ -28,10 +28,10 @@ class Home extends Component {
           <div className="col-lg-3 col-md-3">
             <h2 className="my-4 rotate">Browse Creations:</h2>
             <div className="list-group">
-              <a href="#" className="list-group-item mouseoverStyle">Artwork</a>
-              <a href="#" className="list-group-item mouseoverStyle">Music</a>
-              <a href="#" className="list-group-item mouseoverStyle">Writing</a>
-              <a href="#" className="list-group-item mouseoverStyle">Video</a>
+              <a href="/" className="list-group-item mouseoverStyle">Artwork</a>
+              <a href="/music" className="list-group-item mouseoverStyle">Music</a>
+              <a href="/" className="list-group-item mouseoverStyle">Writing</a>
+              <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
           <div id="carouselExampleSlidesOnly" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
@@ -87,7 +87,7 @@ class Home extends Component {
         <Row>
 
           <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/game">
               <ArchImg
                 src={ require('./gameassets.png') }
 
@@ -97,7 +97,7 @@ class Home extends Component {
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="2">
-            <a href="/">
+            <a href="/waite2">
               <ArchImg
                 src={ require('./waite2.jpg') }
                 name="2" />
@@ -105,7 +105,7 @@ class Home extends Component {
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="3">
-            <a href="/">
+            <a href="/turtle">
               <ArchImg
                 src={ require('./turtleriders.jpg') }
                 name="3" />
@@ -114,7 +114,7 @@ class Home extends Component {
           </Col>
           
           <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
+            <a href="/dagger">
               <ArchImg
                 src={ require('./dagger.jpg') } 
                 style= {{height:'200px'}}
@@ -123,7 +123,7 @@ class Home extends Component {
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
+            <a href="/onepage">
               <ArchImg
                 src={ require('./waite1.jpg') } 
                 style= {{height:'200px'}}
