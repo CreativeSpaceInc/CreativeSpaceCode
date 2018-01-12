@@ -28,7 +28,7 @@ export const Waite2 = props =>
                 <p>FAn interactive installation that considers the 'physical' space of the internet.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>James Waite</li>
+                  <li><a href="/jameswaite">James Waite</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

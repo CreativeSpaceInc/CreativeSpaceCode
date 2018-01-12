@@ -15,8 +15,6 @@ export const Assets = props =>
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          
-          
           <NavLi href="/login">Log In</NavLi>
           <NavLi href="/signup">Sign Up</NavLi>                    
         </Nav>
@@ -29,7 +27,7 @@ export const Assets = props =>
                 <p>Art Assets for the game "Unearthed". Made using photoshop</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>Margwli</li>
+                  <li><a href="/margwli">Margwli</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

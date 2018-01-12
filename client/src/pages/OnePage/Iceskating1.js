@@ -28,7 +28,7 @@ export const Iceskating1 = props =>
                 <p>The lighting in the background serves to complement my costume, the tone of the music, my facial expression, and the overall tranquil emotion I am trying to convey.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>ArtistOnIce</li>
+                  <li><a href="/artistonice">ArtistOnIce</a></li>
                   <li>location: "Colorado, United States" </li>
                   
                 </ul>

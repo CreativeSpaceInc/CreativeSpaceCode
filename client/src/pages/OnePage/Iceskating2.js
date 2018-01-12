@@ -28,7 +28,7 @@ export const Iceskating2 = props =>
                 <p>2017 Rostelecom Cup Opening short program performance.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>ArtistOnIce</li>
+                  <li><a href="/artistonice">ArtistOnIce</a></li>
                   <li>location: "Colorado, United States"</li>
                   
           </ul>

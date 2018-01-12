@@ -29,7 +29,7 @@ export const Dagger = props =>
                 <p>Created using Photoshop.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>Margwli</li>
+                  <li><a href="/margwli">Margwli</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

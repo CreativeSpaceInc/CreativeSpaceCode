@@ -28,7 +28,7 @@ export const Iceskating3 = props =>
                 <p>Performed in 2010 to Memoirs of a Geisha by John Williams. I built up a lot of flexibility from years of practice, and combined this ability with a costume that was custom-designed to complete the aesthetic package I hoped to achieve.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>ArtistOnIce</li>
+                  <li><a href="/artistonice">ArtistOnIce</a></li>
                   <li>location: "Colorado, United States"</li>
                   
           </ul>

@@ -29,7 +29,7 @@ export const Pinksoda3 = props =>
                 <p>Recorded at the Eclipse Stairs in Lakewood.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>PinkSoda</li>
+                  <li><a href="/pinksoda">PinkSoda</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

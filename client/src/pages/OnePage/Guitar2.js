@@ -28,7 +28,7 @@ export const Guitar2 = props =>
                 <p>My guitar cover of jump up superstar from Super Mario Oddessy. Enjoy!</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>SamGriffinGuitar</li>
+                  <li><a href="/samgriffinguitar">SamGriffinGuitar</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

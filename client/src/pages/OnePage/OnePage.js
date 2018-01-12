@@ -29,7 +29,7 @@ export const OnePage = props =>
                 <p>Found text from online chat rooms digitally collage underneath a layer of laser-etched plexi-glass.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>James Waite</li>
+                  <li><a href="/jameswaite">James Waite</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

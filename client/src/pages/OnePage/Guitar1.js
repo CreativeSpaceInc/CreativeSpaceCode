@@ -29,7 +29,7 @@ export const Guitar1 = props =>
                 <p>My arrangement of Zelda Breath of the Wild.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>SamGriffinGuitar</li>
+                  <li><a href="/samgriffinguitar">SamGriffinGuitar</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>

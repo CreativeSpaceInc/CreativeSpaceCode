@@ -29,7 +29,7 @@ export const Turtle = props =>
                 <p>Illustrated in Photoshop. This concept art was inspired by Hayao Miyazaki films.</p>
                 <h3 class="my-3">Creator:</h3>
                 <ul>
-                  <li>Margwli</li>
+                  <li><a href="/margwli">Margwli</a></li>
                   <li>location: "Cleveland, OH"</li>
                   
           </ul>
