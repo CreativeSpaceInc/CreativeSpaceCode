@@ -16,10 +16,10 @@ class About extends Component {
     
       <Container>
         <Nav>
-          <NavLi>Home</NavLi>
-          <NavLi>About</NavLi>
-          <NavLi>Edit profile</NavLi>
-          <NavLi>Log out</NavLi>
+          <NavLi href="/">Home</NavLi>
+           <NavLi href="/about">About</NavLi>
+          <NavLi href="/login">Log in</NavLi>
+          <NavLi href="/register">Sign Up</NavLi>
         </Nav>
         
        <br />

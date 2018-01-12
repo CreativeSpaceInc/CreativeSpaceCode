@@ -319,10 +319,8 @@ class Editprofile extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          
-          <NavLi href="/profile">Profile</NavLi>
-          <NavLi href="/upload">Upload</NavLi>
-          <NavLi href="/logout">Log out</NavLi>                    
+          <NavLi href="/login">Log in</NavLi>
+          <NavLi href="/signup">Sign Up</NavLi>                    
         </Nav>
         <Row>
           <Col size="md-8">
