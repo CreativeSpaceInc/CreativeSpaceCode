@@ -15,8 +15,8 @@ import Home from "./pages/Home";
 import VideoHome from "./pages/VideoHome";
 import MusicHome from "./pages/MusicHome";
 import About from "./pages/About";
-import { OnePage, Waite2, Dagger, Turtle, Assets, Guitar1, Guitar2, Pinksoda1, Pinksoda2, Pinksoda3} from "./pages/OnePage";
-
+import { OnePage, Waite2, Dagger, Turtle, Assets, Guitar1, Guitar2, Pinksoda1, Pinksoda2, Pinksoda3, Iceskating1, Iceskating2, Iceskating3, Iceskating4} from "./pages/OnePage";
+import OtherHome from "./pages/OtherHome";
 
 // import Artists from "./pages/Artists";
 import Footer from "./components/Footer";
@@ -167,6 +167,7 @@ class App extends React.Component{
               <Route exact path="/" component={Home} />
               <Route exact path="/video" component={VideoHome} />
               <Route exact path="/music" component={MusicHome} />
+              <Route exact path="/other" component={OtherHome} />
               <Route exact path="/about" component={About} />
               
               <Route exact path="/artists/:id" component={Detail} />
@@ -184,6 +185,10 @@ class App extends React.Component{
               <Route exact path="/pinksoda3" component={Pinksoda3} />
               <Route exact path="/turtle" component={Turtle} />
               <Route exact path="/waite2" component={Waite2} />
+              <Route exact path="/Iceskating1" component={Iceskating1} />
+              <Route exact path="/Iceskating2" component={Iceskating2} />
+              <Route exact path="/Iceskating3" component={Iceskating3} />
+              <Route exact path="/Iceskating4" component={Iceskating4} />
               //
             
               <Route exact path="/login"
@@ -218,6 +223,7 @@ class App extends React.Component{
               <Route exact path="/" component={Home} />
               <Route exact path="/video" component={VideoHome} />
               <Route exact path="/music" component={MusicHome} />
+              <Route exact path="/other" component={OtherHome} />
               <Route exact path="/about" component={About} />
               
               <Route exact path="/" component={NoMatch} />

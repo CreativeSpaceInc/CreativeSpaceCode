@@ -8,3 +8,7 @@ export * from "./Pinksoda2";
 export * from "./Pinksoda3";
 export * from "./Turtle";
 export * from "./Waite2";
+export * from "./Iceskating1";
+export * from "./Iceskating2";
+export * from "./Iceskating3";
+export * from "./Iceskating4";
