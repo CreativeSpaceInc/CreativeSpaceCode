@@ -89,7 +89,7 @@ class OtherHome extends Component {
           </Col>
           
           <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/Iceskating2"">
+            <a href="/Iceskating2">
               <ArchImg
                 src={ require('./iceskating2.jpg') } 
                 style= {{height:'200px'}}
