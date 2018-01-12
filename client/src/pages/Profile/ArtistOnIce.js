@@ -1,25 +1,24 @@
-// client/src/pages/Profile/Profile.js
+// client/src/pages/Profile/ArtistOnIce.js
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
 import { ArchImg } from "../../components/Archives";
 import { CarA, CarDiv, CarImg, CarItem, CarLi } from "../../components/Carousel";
 import { Col, Container, Row } from "../../components/Grid";
 import { Nav, NavLi } from "../../components/Nav";
 import "./Profile.css";
 
-export class Profile extends Component {
+export class ArtistOnIce extends Component {
   state = {
     url: "http://placehold.it/900x350",
     medium: "Creation medium",
     title: "Creation title",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
-    displayname: "Display Name",
-    avatar: "http://placehold.it/250x250",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
-    username: "Artist username",
-    email: "Artist e-mail",
-    occupation: "Artist occupation",
-    location: "Artist location",
+    displayname: "ArtistOnIce",
+    avatar: "http://www.lifeskate.com/.a/6a00e54f7ecf2c883301348612c5c1970c-pi",
+    bio: "My name is Mirai Nagasu.  I am a competitive figure skater representing the United States.  I am a six-time national medalist.  I am proud of my opportunities to express myself artistically through the medium of ice skating.",
+    username: "MNagasu",
+    email: "MNagasu@gmail.com",
+    occupation: "Amateur Figure Skater",
+    location: "Colorado, United States",
     artist: "5a34a9d1afaabc1820db0b32"
   };
 
@@ -35,7 +34,7 @@ export class Profile extends Component {
         </Nav>
         <Row>
           <Col size="md-8">
-            <a href="/profile"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
+            <a href="/artistonice"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
           </Col>
           <Col size="md-4">
             <a href="/Editprofile"><h2 className="my-4"><i className="fa fa-pencil-square-o"></i> Edit My Profile</h2></a>
@@ -54,31 +53,34 @@ export class Profile extends Component {
                 <CarLi data-slide-to="3"></CarLi>
               </ol>
                 <CarItem className="carousel-item active">
-                  <CarImg 
-                    src={this.state.url} 
-                    alt="First slide">
-                  </CarImg>
+                  <iframe 
+                    height="315px" width="560px"
+                    src="https://www.youtube.com/embed/Hsp-7S79IYI" 
+                    frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
+                    name="1">
+                  </iframe>
                   <br />
                   <table style={{ fontSize:"16px",paddingBottom:"15px" }}>
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/Iceskating4">2010 Olympic Games</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Video</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>Free style program skated to Carmen by Angele Dubeau and La Pieta.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Second slide">
                   </CarImg>
                   <br />
@@ -86,22 +88,23 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/Iceskating3">Spiral</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>Performed in 2010 to Memoirs of a Geisha by John Williams. I built up a lot of flexibility from years of practice, and combined this ability with a costume that was custom-designed to complete the aesthetic package I hoped to achieve.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={"http://www.insideskating.net/wp-content/uploads/2018/01/1-Mirai-Nagasu-SP-2017-Rostelecom-Cup-opening-photo.jpg"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Third slide">
                   </CarImg>
                   <br />
@@ -109,22 +112,23 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/Iceskating2">Lunge</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>2017 Rostelecom Cup Opening short program performance.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={"https://coachtomz.com/wp-content/uploads/2016/08/mn-02.jpg"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Fourth slide">
                   </CarImg>
                   <br />
@@ -132,15 +136,15 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/Iceskating1">Exhibition</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>The lighting in the background serves to complement my costume, the tone of the music, my facial expression, and the overall tranquil emotion I am trying to convey.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -163,7 +167,7 @@ export class Profile extends Component {
           </Col>
           <Col size="md-4">
             <h1 id="display-name" className="my-4">{this.state.displayname}</h1>
-            <img id="avatar" className="img-fluid" src={this.state.avatar} alt="Creator Profile Avatar" />
+            <img id="avatar" className="img-fluid" style={{maxHeight:"250px",maxWidth:"100%"}} src={this.state.avatar} alt="Creator Profile Avatar" />
             <h3 className="my-3">My Bio</h3>
             <p id="bio">{this.state.bio}</p>
             <h3 className="my-3">My Details</h3>
@@ -195,48 +199,51 @@ export class Profile extends Component {
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="1">
-            <a href="/view">
-              <ArchImg
-                src={"http://placehold.it/250x250"}
+            <a href="/Iceskating4">
+              <iframe 
+                className="img-fluid"
                 style={{maxHeight:"250px",width:"100%"}} 
-                name="1" />
-              <p>{this.state.title}</p>
+                src="https://www.youtube.com/embed/Hsp-7S79IYI" 
+                frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
+                alt="First creation" name="1">
+              </iframe>
+              <p>2010 Olympic Games</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="2">
-            <a href="/view">
+            <a href="/Iceskating3">
               <ArchImg
-                src={"http://placehold.it/250x250"}
+                src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"} 
                 style={{maxHeight:"250px",width:"100%"}} 
                 name="2" />
-              <p>{this.state.title}</p>
+              <p>Spiral</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="3">
-            <a href="/view">
+            <a href="/Iceskating2">
               <ArchImg
-                src={"http://placehold.it/250x250"}
-                style={{maxHeight:"250px",width:"100%"}}
+                src={"http://www.insideskating.net/wp-content/uploads/2018/01/1-Mirai-Nagasu-SP-2017-Rostelecom-Cup-opening-photo.jpg"} 
+                style={{maxHeight:"250px",width:"100%"}} 
                 name="3" />
-              <p>{this.state.title}</p>
+              <p>Lunge</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="4">
-            <a href="/view">
+            <a href="/Iceskating1">
               <ArchImg
-                src={"http://placehold.it/250x250"}
+                src={"https://coachtomz.com/wp-content/uploads/2016/08/mn-02.jpg"}
                 style={{maxHeight:"250px",width:"100%"}} 
                 name="4" />
-              <p>{this.state.title}</p>
+              <p>Exhibition</p>
             </a>
           </Col>
         </Row>

@@ -23,7 +23,6 @@ class Logout extends Component {
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
           <NavLi href="/upload">Upload</NavLi>
-          <NavLi href="/profile">Profile</NavLi>
           <NavLi href="/editprofile">Edit profile</NavLi>
           <NavLi href="/update">Update</NavLi>
         </Nav>

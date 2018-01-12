@@ -7,7 +7,7 @@ import Editprofile from "./pages/Editprofile";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import NoMatch from "./pages/NoMatch";
-import Profile from "./pages/Profile";
+import { ArtistOnIce, JamesWaite, Margwli, PinkSoda, Profile, SamGriffinGuitar } from "./pages/Profile";
 import Signup from "./pages/SignUp";
 import Upload from "./pages/Upload";
 import Test from "./pages/Test"
@@ -191,6 +191,12 @@ class App extends React.Component{
               <Route exact path="/Iceskating4" component={Iceskating4} />
               //
             
+              <Route exact path="/artistonice" component={ArtistOnIce} />
+              <Route exact path="/jameswaite" component={JamesWaite} />
+              <Route exact path="/margwli" component={Margwli} />
+              <Route exact path="/pinksoda" component={PinkSoda} />
+              <Route exact path="/samgriffinguitar" component={SamGriffinGuitar} />
+
               <Route exact path="/login"
                 render={() => <Login
                   username = {this.state.username}
@@ -243,6 +249,11 @@ class App extends React.Component{
               <Route exact path="/turtle" component={Turtle} />
               <Route exact path="/waite2" component={Waite2} />
 
+              <Route exact path="/artistonice" component={ArtistOnIce} />
+              <Route exact path="/jameswaite" component={JamesWaite} />
+              <Route exact path="/margwli" component={Margwli} />
+              <Route exact path="/pinksoda" component={PinkSoda} />
+              <Route exact path="/samgriffinguitar" component={SamGriffinGuitar} />
 
               <Route exact path="/editprofile" component={Editprofile} />
 
@@ -251,7 +262,7 @@ class App extends React.Component{
 
               <Route exact path="/login" component={Profile} />
               <Route exact path="/profile" component={Profile} />
-              <Route exact path="/" component={Signup} />
+              <Route exact path="/signup" component={Signup} />
               <Route exact path="/upload" component={Upload} />
               <Route component={NoMatch} />
               <Route exact path="/logout"

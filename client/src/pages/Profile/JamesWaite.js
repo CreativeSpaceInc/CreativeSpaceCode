@@ -1,25 +1,24 @@
-// client/src/pages/Profile/Profile.js
+// client/src/pages/Profile/JamesWaite.js
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
 import { ArchImg } from "../../components/Archives";
 import { CarA, CarDiv, CarImg, CarItem, CarLi } from "../../components/Carousel";
 import { Col, Container, Row } from "../../components/Grid";
 import { Nav, NavLi } from "../../components/Nav";
 import "./Profile.css";
 
-export class Profile extends Component {
+export class JamesWaite extends Component {
   state = {
     url: "http://placehold.it/900x350",
     medium: "Creation medium",
     title: "Creation title",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
-    displayname: "Display Name",
-    avatar: "http://placehold.it/250x250",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.",
-    username: "Artist username",
-    email: "Artist e-mail",
-    occupation: "Artist occupation",
-    location: "Artist location",
+    displayname: "JamesWaite",
+    avatar: "http://www.jamespatrickwaite.com/image/profilepic.jpg",
+    bio: "James Waite is a multidisciplinary artist who graduated from the Cleveland Institute of Art in 2017 with a Bachelor Degree in Fine Arts from the Drawing Department with an emphasis in Visual Culture, Art & History.",
+    username: "waitjameswaite",
+    email: "james@jamespatrickwaite.com",
+    occupation: "Artist",
+    location: "Cleveland, OH",
     artist: "5a34a9d1afaabc1820db0b32"
   };
 
@@ -35,7 +34,7 @@ export class Profile extends Component {
         </Nav>
         <Row>
           <Col size="md-8">
-            <a href="/profile"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
+            <a href="/jameswaite"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
           </Col>
           <Col size="md-4">
             <a href="/Editprofile"><h2 className="my-4"><i className="fa fa-pencil-square-o"></i> Edit My Profile</h2></a>
@@ -55,7 +54,8 @@ export class Profile extends Component {
               </ol>
                 <CarItem className="carousel-item active">
                   <CarImg 
-                    src={this.state.url} 
+                    src={"http://jamespatrickwaite.com/image/BFA/BFA_DOC-13.jpg"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="First slide">
                   </CarImg>
                   <br />
@@ -63,22 +63,23 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/waite2">Virtually, Actually</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>An interactive installation that considers the 'physical' space of the internet. Created with sharpie, masonite, foamcore, video projection, and iPad.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={"http://jamespatrickwaite.com/image/Waite_BlackPalimpsestDETAIL.jpg"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Second slide">
                   </CarImg>
                   <br />
@@ -86,22 +87,23 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/onepage">Black Palimpsest</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>Found text from online chat rooms digitally collage underneath a layer of laser-etched plexi-glass. Made with plexiglass and digital print.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={"http://jamespatrickwaite.com/image/Waite_FiveRedRectangles03.jpg"}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Third slide">
                   </CarImg>
                   <br />
@@ -109,22 +111,23 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/waite3">Five Red Rectangles</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
+                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>Artwork</td>
                       </tr>
                       <tr>
                         <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
+                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>Produced with EL wire and monofilament wire.</td>
                       </tr>
                     </tbody>
                   </table>
                 </CarItem>
                 <CarItem>
                   <CarImg 
-                    src={this.state.url} 
+                    src={this.state.url}
+                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                     alt="Fourth slide">
                   </CarImg>
                   <br />
@@ -132,7 +135,7 @@ export class Profile extends Component {
                     <tbody>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/view">{this.state.title}</a></td>
+                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/#">{this.state.title}</a></td>
                       </tr>
                       <tr>
                         <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
@@ -163,7 +166,7 @@ export class Profile extends Component {
           </Col>
           <Col size="md-4">
             <h1 id="display-name" className="my-4">{this.state.displayname}</h1>
-            <img id="avatar" className="img-fluid" src={this.state.avatar} alt="Creator Profile Avatar" />
+            <img id="avatar" className="img-fluid" style={{maxHeight:"250px",maxWidth:"100%"}} src={this.state.avatar} alt="Creator Profile Avatar" />
             <h3 className="my-3">My Bio</h3>
             <p id="bio">{this.state.bio}</p>
             <h3 className="my-3">My Details</h3>
@@ -195,43 +198,43 @@ export class Profile extends Component {
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="1">
-            <a href="/view">
+            <a href="/waite2">
               <ArchImg
-                src={"http://placehold.it/250x250"}
+                src={"http://jamespatrickwaite.com/image/BFA/BFA_DOC-13.jpg"} 
                 style={{maxHeight:"250px",width:"100%"}} 
                 name="1" />
-              <p>{this.state.title}</p>
+              <p>Virtually, Actually</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="2">
-            <a href="/view">
+            <a href="/waite1">
               <ArchImg
-                src={"http://placehold.it/250x250"}
+                src={"http://jamespatrickwaite.com/image/Waite_BlackPalimpsestDETAIL.jpg"} 
                 style={{maxHeight:"250px",width:"100%"}} 
                 name="2" />
-              <p>{this.state.title}</p>
+              <p>Black Palimpsest</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="3">
-            <a href="/view">
+            <a href="/waite3">
               <ArchImg
-                src={"http://placehold.it/250x250"}
-                style={{maxHeight:"250px",width:"100%"}}
+                src={"http://jamespatrickwaite.com/image/Waite_FiveRedRectangles03.jpg"} 
+                style={{maxHeight:"250px",width:"100%"}} 
                 name="3" />
-              <p>{this.state.title}</p>
+              <p>Five Red Rectangles</p>
             </a>
           </Col>
           <Col 
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="4">
-            <a href="/view">
+            <a href="/#">
               <ArchImg
                 src={"http://placehold.it/250x250"}
                 style={{maxHeight:"250px",width:"100%"}} 

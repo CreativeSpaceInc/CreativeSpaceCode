@@ -19,7 +19,7 @@ class About extends Component {
           <NavLi href="/">Home</NavLi>
            <NavLi href="/about">About</NavLi>
           <NavLi href="/login">Log in</NavLi>
-          <NavLi href="/register">Sign Up</NavLi>
+          <NavLi href="/signup">Sign Up</NavLi>
         </Nav>
         
        <br />
