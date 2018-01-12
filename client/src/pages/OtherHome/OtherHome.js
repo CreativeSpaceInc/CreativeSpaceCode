@@ -43,16 +43,19 @@ class OtherHome extends Component {
               </ol>
               <CarItem className="carousel-item active">
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./iceskating1.jpg') } 
                   alt="Exhibition"></CarImg>
               </CarItem>
               <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./iceskating2.jpg') } 
                   alt="Lunge"></CarImg>
               </CarItem>
               <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./iceskating3.JPG') } 
                   alt="Spiral"></CarImg>
               </CarItem>

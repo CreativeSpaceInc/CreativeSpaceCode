@@ -45,26 +45,31 @@ class Home extends Component {
               </ol>
               <CarItem className="carousel-item active">
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./turtleriders.jpg') } 
                   alt="Turtle Riders"></CarImg>
               </CarItem>
               <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./waite2.jpg') } 
                   alt="Virtually, Actually"></CarImg>
               </CarItem>
               <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./dagger.jpg') } 
                   alt="Dagger"></CarImg>
               </CarItem>
               <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./gameassets.png') }
                   alt="Game Assets"></CarImg>
               </CarItem>
                <CarItem>
                 <CarImg 
+                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
                   src={ require('./waite1.jpg') }
                   alt="Black Palimpsest"></CarImg>
               </CarItem>
