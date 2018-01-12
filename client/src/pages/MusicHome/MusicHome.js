@@ -13,7 +13,6 @@ class MusicHome extends Component {
 
   render() {
     return (
-      <div>
       <Container>
         <Nav>
           <NavLi href="/">Home</NavLi>
@@ -86,7 +85,6 @@ class MusicHome extends Component {
 
             
       </Container>
-      </div>
     );
   }
 }
