@@ -107,7 +107,7 @@ class OtherHome extends Component {
             </a>
           </Col>
            <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/Iceskating4">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/Hsp-7S79IYI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
               <p>2010 Olympic Games | ArtistOnIce</p>
