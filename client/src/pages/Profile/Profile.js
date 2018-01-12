@@ -29,7 +29,7 @@ class Profile extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/upload">Upload</NavLi>
           <NavLi href="/editprofile">Edit profile</NavLi>
           <NavLi href="/logout">Log out</NavLi>                    

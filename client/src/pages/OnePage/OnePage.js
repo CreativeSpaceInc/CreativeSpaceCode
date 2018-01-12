@@ -15,7 +15,7 @@ export const OnePage = props =>
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/upload">Upload</NavLi>
           <NavLi href="/editprofile">Edit profile</NavLi>
           <NavLi href="/logout">Log out</NavLi>                    
@@ -36,9 +36,10 @@ export const OnePage = props =>
           
         </div>
         <div class="col-md-8">
-           <img src={ require('./waite1.jpg') } style= {{width:'500px'}}/>
+           <img src={ require('./waite1.jpg') } style= {{width:'400px'}}/>
         </div>
         </Row>
+        <br /><br /><br /><br /><br /><br />
       </Container>
     
 

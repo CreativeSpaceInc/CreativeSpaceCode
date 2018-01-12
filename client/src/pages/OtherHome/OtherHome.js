@@ -18,7 +18,7 @@ class OtherHome extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/profile">Profile</NavLi>
           <NavLi href="/login">Log in</NavLi>
           <NavLi href="/signup">Sign up</NavLi>          
@@ -30,7 +30,7 @@ class OtherHome extends Component {
             <div className="list-group">
               <a href="/" className="list-group-item mouseoverStyle">Artwork</a>
               <a href="/music" className="list-group-item mouseoverStyle">Music</a>
-              <a href="/" className="list-group-item mouseoverStyle">Writing</a>
+              <a href="/other" className="list-group-item mouseoverStyle">Other</a>
               <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
@@ -78,7 +78,7 @@ class OtherHome extends Component {
         <Row>
 
         
-          <Col size="sm-6 md-3" className="mb-4" name="3">
+          <Col size="sm-6 md-2" className="mb-4" name="3">
             <a href="/Iceskating3">
               <ArchImg
                 src={ require('./iceskating3.JPG') }
@@ -108,14 +108,14 @@ class OtherHome extends Component {
           </Col>
            <Col size="sm-6 md-3" className="mb-4" name="1">
             <a href="/Iceskating4">
-              <iframe width="210" height="160" src="https://www.youtube.com/embed/Hsp-7S79IYI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="310" height="200" src="https://www.youtube.com/embed/Hsp-7S79IYI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
               <p>2010 Olympic Games | ArtistOnIce</p>
             </a>
           </Col>
 
         </Row>
-        <br />
+        <br /><br /><br /><br /><br />
            
       </Container>
       </div>

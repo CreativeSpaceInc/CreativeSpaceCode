@@ -18,20 +18,13 @@ class About extends Component {
         <Nav>
           <NavLi>Home</NavLi>
           <NavLi>About</NavLi>
-          <NavLi>Search</NavLi>
           <NavLi>Edit profile</NavLi>
           <NavLi>Log out</NavLi>
         </Nav>
         
-        <Row>
-             <div class="col-lg-12">
-                  <h1 class="my-4">CreativeSpace | Meet the team! </h1>
+       <br />
 
-              </div>
-
-        </Row>
-
-        <hr />
+        
         <Row>
           <div class="col-lg-4 col-sm-6 text-center mb-4">
               
@@ -85,7 +78,7 @@ class About extends Component {
         </div>
         </Row>
 
-  
+  <br /><br /><br /><br /><br /><br />
 
       </Container>
       

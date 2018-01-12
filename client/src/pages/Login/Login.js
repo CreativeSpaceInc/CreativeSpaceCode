@@ -55,7 +55,7 @@ class Login extends Component {
       <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+         
           <NavLi href="/signup">Sign up</NavLi> 
       </Nav>
       <h1 className="my-4"><i class="fa fa-sign-in"></i> Log in</h1>

@@ -58,7 +58,7 @@ class Signup extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+         
           <NavLi href="/login">Log in</NavLi> 
         </Nav>
         <h1 className="my-4"><span className="fa fa-user-plus"></span> Sign up</h1>

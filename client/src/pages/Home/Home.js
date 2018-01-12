@@ -18,7 +18,7 @@ class Home extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/profile">Profile</NavLi>
           <NavLi href="/login">Log in</NavLi>
           <NavLi href="/signup">Sign up</NavLi>          
@@ -30,7 +30,7 @@ class Home extends Component {
             <div className="list-group">
               <a href="/" className="list-group-item mouseoverStyle">Artwork</a>
               <a href="/music" className="list-group-item mouseoverStyle">Music</a>
-              <a href="/" className="list-group-item mouseoverStyle">Writing</a>
+              <a href="/other" className="list-group-item mouseoverStyle">Other</a>
               <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
@@ -90,7 +90,7 @@ class Home extends Component {
             <a href="/game">
               <ArchImg
                 src={ require('./gameassets.png') }
-
+                style= {{height:'200px', width:'400px'}}
                 name="1">
               </ArchImg>
               <p>Game assets | Margwli</p>
@@ -100,6 +100,7 @@ class Home extends Component {
             <a href="/waite2">
               <ArchImg
                 src={ require('./waite2.jpg') }
+                style= {{height:'200px'}}
                 name="2" />
               <p>Virtually, Actually | James Waite</p>
             </a>
@@ -108,6 +109,7 @@ class Home extends Component {
             <a href="/turtle">
               <ArchImg
                 src={ require('./turtleriders.jpg') }
+                style= {{height:'200px'}}
                 name="3" />
               <p>Turtle Riders | Margwli</p>
             </a>
@@ -133,9 +135,10 @@ class Home extends Component {
           </Col>
 
         </Row>
-           
+           <br /><br /> <br /><br /> <br /><br />
       </Container>
       </div>
+
     );
   }
 }

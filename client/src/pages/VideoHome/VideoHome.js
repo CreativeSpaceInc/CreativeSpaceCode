@@ -18,7 +18,7 @@ class VideoHome extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/profile">Profile</NavLi>
           <NavLi href="/login">Log in</NavLi>
           <NavLi href="/signup">Sign up</NavLi>          
@@ -28,10 +28,10 @@ class VideoHome extends Component {
           <div className="col-lg-3 col-md-3">
             <h2 className="my-4 rotate">Browse Creations:</h2>
             <div className="list-group">
-              <a href="#" className="list-group-item mouseoverStyle">Artwork</a>
-              <a href="#" className="list-group-item mouseoverStyle">Music</a>
-              <a href="#" className="list-group-item mouseoverStyle">Writing</a>
-              <a href="#" className="list-group-item mouseoverStyle">Video</a>
+              <a href="/" className="list-group-item mouseoverStyle">Artwork</a>
+              <a href="/music" className="list-group-item mouseoverStyle">Music</a>
+              <a href="/other" className="list-group-item mouseoverStyle">Other</a>
+              <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
           <br /><br />

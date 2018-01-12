@@ -22,7 +22,7 @@ class Logout extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/search">Search</NavLi>
+          
           <NavLi href="/profile">Profile</NavLi>
           <NavLi href="/editprofile">Edit profile</NavLi>
           <NavLi href="/update">Update</NavLi>
