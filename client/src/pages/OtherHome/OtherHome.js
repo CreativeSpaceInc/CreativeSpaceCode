@@ -28,10 +28,10 @@ class OtherHome extends Component {
           <div className="col-lg-3 col-md-3">
             <h2 className="my-4 rotate">Browse Creations:</h2>
             <div className="list-group">
-              <a href="#" className="list-group-item mouseoverStyle">Artwork</a>
-              <a href="#" className="list-group-item mouseoverStyle">Music</a>
-              <a href="#" className="list-group-item mouseoverStyle">Writing</a>
-              <a href="#" className="list-group-item mouseoverStyle">Video</a>
+              <a href="/" className="list-group-item mouseoverStyle">Artwork</a>
+              <a href="/music" className="list-group-item mouseoverStyle">Music</a>
+              <a href="/" className="list-group-item mouseoverStyle">Writing</a>
+              <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
           <div id="carouselExampleSlidesOnly" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
@@ -79,7 +79,7 @@ class OtherHome extends Component {
 
         
           <Col size="sm-6 md-3" className="mb-4" name="3">
-            <a href="/">
+            <a href="/Iceskating3">
               <ArchImg
                 src={ require('./iceskating3.JPG') }
                 style= {{height:'200px'}}
@@ -89,7 +89,7 @@ class OtherHome extends Component {
           </Col>
           
           <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
+            <a href="/Iceskating2"">
               <ArchImg
                 src={ require('./iceskating2.jpg') } 
                 style= {{height:'200px'}}
@@ -98,7 +98,7 @@ class OtherHome extends Component {
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="4">
-            <a href="/">
+            <a href="/Iceskating1">
               <ArchImg
                 src={ require('./iceskating1.jpg') } 
                 style= {{height:'200px'}}
