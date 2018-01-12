@@ -28,13 +28,13 @@ export class Margwli extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/upload">Upload</NavLi>
-          <NavLi href="/editprofile">Edit profile</NavLi>
-          <NavLi href="/logout">Log out</NavLi>                    
+          <NavLi href="/login">Log In</NavLi>
+          <NavLi href="/signup">Sign Up</NavLi>
+                             
         </Nav>
         <Row>
           <Col size="md-8">
-            <a href="/margwli"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
+            <a href="/login"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
           </Col>
           <Col size="md-4">
             <a href="/Editprofile"><h2 className="my-4"><i className="fa fa-pencil-square-o"></i> Edit My Profile</h2></a>
@@ -124,30 +124,7 @@ export class Margwli extends Component {
                     </tbody>
                   </table>
                 </CarItem>
-                <CarItem>
-                  <CarImg 
-                    src={this.state.url}
-                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
-                    alt="Fourth slide">
-                  </CarImg>
-                  <br />
-                  <table style={{ fontSize:"16px",paddingBottom:"15px" }}>
-                    <tbody>
-                      <tr>
-                        <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Title</td>
-                        <td id="creation-title" style={{paddingBottom:"15px",paddingLeft:"15px"}}><a href="/#">{this.state.title}</a></td>
-                      </tr>
-                      <tr>
-                        <td style={{paddingBottom:"15px","paddingRight":"15px",borderRight:"2px solid gray"}}>Medium</td>
-                        <td id="creation-medium" style={{paddingBottom:"15px",paddingLeft:"15px"}}>{this.state.medium}</td>
-                      </tr>
-                      <tr>
-                        <td style={{verticalAlign:"top",paddingRight:"15px",borderRight:"2px solid gray",marginBottom:"15px"}}>Description</td>
-                        <td id="creation-description" style={{paddingLeft:"15px",marginBottom:"15px"}}>{this.state.description}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </CarItem>
+                
               </CarDiv>
               <CarA 
                 className="carousel-control-prev" 
@@ -201,7 +178,7 @@ export class Margwli extends Component {
             <a href="/dagger">
               <ArchImg
                 src={require("./dagger.jpg")} 
-                style={{maxHeight:"250px",width:"100%"}} 
+                style={{maxHeight:"140px",width:"100%"}} 
                 name="1" />
               <p>Dagger</p>
             </a>
@@ -230,19 +207,9 @@ export class Margwli extends Component {
               <p>Turtle Riders</p>
             </a>
           </Col>
-          <Col 
-            size="md-3" 
-            style={{marginBottom:"4px"}} 
-            name="4">
-            <a href="/#">
-              <ArchImg
-                src={"http://placehold.it/250x250"}
-                style={{maxHeight:"250px",width:"100%"}} 
-                name="4" />
-              <p>{this.state.title}</p>
-            </a>
-          </Col>
+          
         </Row>
+        <br /><br /><br /><br /><br /><br />
       </Container>
     );
   }

@@ -28,13 +28,13 @@ export class PinkSoda extends Component {
         <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/upload">Upload</NavLi>
-          <NavLi href="/editprofile">Edit profile</NavLi>
-          <NavLi href="/logout">Log out</NavLi>                    
+          <NavLi href="/login">Log In</NavLi>
+          <NavLi href="/signup">Sign Up</NavLi>
+                             
         </Nav>
         <Row>
           <Col size="md-8">
-            <a href="/pinksoda"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
+            <a href="/login"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
           </Col>
           <Col size="md-4">
             <a href="/Editprofile"><h2 className="my-4"><i className="fa fa-pencil-square-o"></i> Edit My Profile</h2></a>
@@ -225,7 +225,7 @@ export class PinkSoda extends Component {
             size="md-3" 
             style={{marginBottom:"4px"}} 
             name="3">
-            <a href="/#">
+            <a href="/pinksoda4">
               <iframe 
                 className="img-fluid"
                 style={{maxHeight:"250px",width:"100%"}} 
@@ -248,10 +248,11 @@ export class PinkSoda extends Component {
                 frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
                 alt="Fourth creation" name="1">
               </iframe>
-              <p>Oh Nana CARD Dance Cover</p>
+              <p>Oh Nana KARD Dance Cover</p>
             </a>
           </Col>
         </Row>
+        <br /><br /><br /><br /><br />
       </Container>
     );
   }

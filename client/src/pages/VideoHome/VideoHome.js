@@ -66,14 +66,14 @@ class VideoHome extends Component {
         <br />
         <Row>
          <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/pinksoda3">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/TwoUDtDdd6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
               <p>Hola Hola Dance Cover | PinkSoda</p>
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/pinksoda1">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/vmbcJm96L5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
               <p>Rumor Dance Cover | PinkSoda</p>
@@ -81,14 +81,21 @@ class VideoHome extends Component {
           </Col>
            
            <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/pinksoda2">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/gMUuo9oN2T4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
-              <p>Oh NaNa Dance Cover | PinkSoda</p>
+              <p>Oh NaNa KARD Dance Cover | PinkSoda</p>
+            </a>
+          </Col>
+           <Col size="sm-6 md-3" className="mb-4" name="1">
+            <a href="/pinksoda4">
+              <iframe width="210" height="160" src="https://www.youtube.com/embed/Jy0V5aE3HNI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              
+              <p>All I Wanna Do Performance | PinkSoda</p>
             </a>
           </Col>
         </Row>
-           
+           <br /><br /><br /><br /><br />
       </Container>
       </div>
     );

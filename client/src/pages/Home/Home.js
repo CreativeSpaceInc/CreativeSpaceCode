@@ -133,6 +133,15 @@ class Home extends Component {
               <p>Black Palimpsest| James Waite</p>
             </a>
           </Col>
+           <Col size="sm-6 md-3" className="mb-4" name="4">
+            <a href="/waite3">
+              <ArchImg
+                src={ require('./waite3.jpg') } 
+                style= {{height:'200px'}}
+                name="4" />
+              <p>Five Red Rectangles| James Waite</p>
+            </a>
+          </Col>
 
         </Row>
            <br /><br /> <br /><br /> <br /><br />

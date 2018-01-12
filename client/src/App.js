@@ -15,7 +15,7 @@ import Home from "./pages/Home";
 import VideoHome from "./pages/VideoHome";
 import MusicHome from "./pages/MusicHome";
 import About from "./pages/About";
-import { OnePage, Waite2, Dagger, Turtle, Assets, Guitar1, Guitar2, Pinksoda1, Pinksoda2, Pinksoda3, Iceskating1, Iceskating2, Iceskating3, Iceskating4} from "./pages/OnePage";
+import { OnePage, Waite2, Waite3, Dagger, Turtle, Assets, Guitar1, Guitar2, Pinksoda1, Pinksoda2, Pinksoda3, Pinksoda4, Iceskating1, Iceskating2, Iceskating3, Iceskating4} from "./pages/OnePage";
 import OtherHome from "./pages/OtherHome";
 
 // import Artists from "./pages/Artists";
@@ -183,8 +183,10 @@ class App extends React.Component{
               <Route exact path="/pinksoda1" component={Pinksoda1} />
               <Route exact path="/pinksoda2" component={Pinksoda2} />
               <Route exact path="/pinksoda3" component={Pinksoda3} />
+              <Route exact path="/pinksoda4" component={Pinksoda4} />
               <Route exact path="/turtle" component={Turtle} />
               <Route exact path="/waite2" component={Waite2} />
+              <Route exact path="/waite3" component={Waite3} />
               <Route exact path="/Iceskating1" component={Iceskating1} />
               <Route exact path="/Iceskating2" component={Iceskating2} />
               <Route exact path="/Iceskating3" component={Iceskating3} />
@@ -246,8 +248,10 @@ class App extends React.Component{
               <Route exact path="/pinksoda1" component={Pinksoda1} />
               <Route exact path="/pinksoda2" component={Pinksoda2} />
               <Route exact path="/pinksoda3" component={Pinksoda3} />
+              <Route exact path="/pinksoda4" component={Pinksoda4} />
               <Route exact path="/turtle" component={Turtle} />
               <Route exact path="/waite2" component={Waite2} />
+              <Route exact path="/waite3" component={Waite3} />
 
               <Route exact path="/artistonice" component={ArtistOnIce} />
               <Route exact path="/jameswaite" component={JamesWaite} />

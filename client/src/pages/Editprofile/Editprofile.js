@@ -327,7 +327,7 @@ class Editprofile extends Component {
             <a href="/editprofile"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-pencil-square-o" ></i>Edit My Profile</h2></a>
           </Col>
           <Col size="md-4">
-            <a href="/profile"><h2 className="my-4"><i className="fa fa-eye"></i> View My Profile</h2></a>
+            <a href="/login"><h2 className="my-4"><i className="fa fa-eye"></i> View My Profile</h2></a>
           </Col>
         </Row><hr />
         <Row>
@@ -504,6 +504,7 @@ class Editprofile extends Component {
             </form>       
           </Col>
         </Row>
+        <br /><br /><br /><br /><br /><br />
       </Container>
     );
   }

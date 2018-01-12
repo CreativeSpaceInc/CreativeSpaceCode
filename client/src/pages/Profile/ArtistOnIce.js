@@ -25,16 +25,16 @@ export class ArtistOnIce extends Component {
   render() {
     return (
       <Container>
-        <Nav>
+       <Nav>
           <NavLi href="/">Home</NavLi>
           <NavLi href="/about">About</NavLi>
-          <NavLi href="/upload">Upload</NavLi>
-          <NavLi href="/editprofile">Edit profile</NavLi>
-          <NavLi href="/logout">Log out</NavLi>                    
+          <NavLi href="/login">Log In</NavLi>
+          <NavLi href="/signup">Sign Up</NavLi>
+                             
         </Nav>
         <Row>
           <Col size="md-8">
-            <a href="/artistonice"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
+            <a href="/login"><h2 className="my-4" style={{textDecoration:"underline"}}><i className="fa fa-user"></i> My Profile</h2></a>
           </Col>
           <Col size="md-4">
             <a href="/Editprofile"><h2 className="my-4"><i className="fa fa-pencil-square-o"></i> Edit My Profile</h2></a>
@@ -80,7 +80,7 @@ export class ArtistOnIce extends Component {
                 <CarItem>
                   <CarImg 
                     src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"}
-                    style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
+                    style={{maxHeight:"350px"}}
                     alt="Second slide">
                   </CarImg>
                   <br />
@@ -202,24 +202,12 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating4">
               <iframe 
                 className="img-fluid"
-                style={{maxHeight:"250px",width:"100%"}} 
+                style={{maxHeight:"400px"}} 
                 src="https://www.youtube.com/embed/Hsp-7S79IYI" 
                 frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
                 alt="First creation" name="1">
               </iframe>
               <p>2010 Olympic Games</p>
-            </a>
-          </Col>
-          <Col 
-            size="md-3" 
-            style={{marginBottom:"4px"}} 
-            name="2">
-            <a href="/Iceskating3">
-              <ArchImg
-                src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"} 
-                style={{maxHeight:"250px",width:"100%"}} 
-                name="2" />
-              <p>Spiral</p>
             </a>
           </Col>
           <Col 
@@ -241,12 +229,25 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating1">
               <ArchImg
                 src={"https://coachtomz.com/wp-content/uploads/2016/08/mn-02.jpg"}
-                style={{maxHeight:"250px",width:"100%"}} 
+                style={{maxHeight:"300px",width:"100%"}} 
                 name="4" />
               <p>Exhibition</p>
             </a>
           </Col>
+          <Col 
+            size="md-3" 
+            style={{marginBottom:"4px"}} 
+            name="2">
+            <a href="/Iceskating3">
+              <ArchImg
+                src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"} 
+                style={{maxHeight:"190px"}} 
+                name="2" />
+              <p>Spiral</p>
+            </a>
+          </Col>
         </Row>
+        <br /><br /><br /><br /><br /><br />
       </Container>
     );
   }
