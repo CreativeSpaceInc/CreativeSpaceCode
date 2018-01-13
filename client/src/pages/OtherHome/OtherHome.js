@@ -32,7 +32,7 @@ class OtherHome extends Component {
               <a href="/video" className="list-group-item mouseoverStyle">Video</a>
             </div>
           </div>
-          <div id="carouselExampleSlidesOnly" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
+          <div id="carouselExampleIndicators" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
             <CarDiv>
               <ol className="carousel-indicators" style={{borderBottom:"0px"}}>
                 <CarLi data-slide-to="0" className="active"></CarLi>

@@ -33,7 +33,7 @@ class MusicHome extends Component {
             </div>
           </div>
           <br /><br />
-          <div id="carouselExampleSlidesOnly" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
+          <div id="carouselExampleIndicators" className="carousel slide col-lg-9 col-md-9" data-ride="carousel">
             <CarDiv>
               <ol className="carousel-indicators" style={{borderBottom:"0px"}}>
                 <CarLi data-slide-to="0" className="active"></CarLi>
