@@ -356,7 +356,7 @@ class Editprofile extends Component {
                     <option value="" selected>--</option>
                     <option value="Artwork">Artwork</option>
                     <option value="Music">Music</option>
-                    <option value="Writing">Writing</option>
+                    <option value="Other">Other</option>
                     <option value="Video">Video</option>
                   </Select>
                   <Addon>Medium (required)</Addon>
