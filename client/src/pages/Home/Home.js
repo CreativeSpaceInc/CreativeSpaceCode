@@ -69,7 +69,7 @@ class Home extends Component {
               </CarItem>
                <CarItem>
                 <CarImg 
-                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
+                  style={{maxHeight:"350px"}}
                   src={ require('./waite1.jpg') }
                   alt="Black Palimpsest"></CarImg>
               </CarItem>

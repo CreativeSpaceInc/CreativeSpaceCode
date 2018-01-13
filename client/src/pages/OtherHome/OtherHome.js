@@ -55,7 +55,7 @@ class OtherHome extends Component {
               </CarItem>
               <CarItem>
                 <CarImg 
-                  style={{maxHeight:"350px",minWidth:"50%",maxWidth:"100%"}}
+                  style={{maxHeight:"350px"}}
                   src={ require('./iceskating3.JPG') } 
                   alt="Spiral"></CarImg>
               </CarItem>

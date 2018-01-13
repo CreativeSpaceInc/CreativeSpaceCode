@@ -202,7 +202,7 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating4">
               <iframe 
                 className="img-fluid"
-                style={{maxHeight:"400px"}} 
+                style={{height:"200px"}} 
                 src="https://www.youtube.com/embed/Hsp-7S79IYI" 
                 frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
                 alt="First creation" name="1">
@@ -217,7 +217,7 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating2">
               <ArchImg
                 src={"http://www.insideskating.net/wp-content/uploads/2018/01/1-Mirai-Nagasu-SP-2017-Rostelecom-Cup-opening-photo.jpg"} 
-                style={{maxHeight:"250px",width:"100%"}} 
+                style={{height:"200px",width:"100%"}} 
                 name="3" />
               <p>Lunge</p>
             </a>
@@ -229,7 +229,7 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating1">
               <ArchImg
                 src={"https://coachtomz.com/wp-content/uploads/2016/08/mn-02.jpg"}
-                style={{maxHeight:"300px",width:"100%"}} 
+                style={{height:"200px",width:"100%"}} 
                 name="4" />
               <p>Exhibition</p>
             </a>
@@ -241,7 +241,7 @@ export class ArtistOnIce extends Component {
             <a href="/Iceskating3">
               <ArchImg
                 src={"https://upload.wikimedia.org/wikipedia/commons/9/90/Mirai_Nagasu_2010_Troph%C3%A9e_Eric_Bompard.JPG"} 
-                style={{maxHeight:"190px"}} 
+                style={{height:"200px"}} 
                 name="2" />
               <p>Spiral</p>
             </a>
