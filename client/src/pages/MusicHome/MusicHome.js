@@ -66,17 +66,17 @@ class MusicHome extends Component {
         <br />
         <Row>
          <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/guitar1">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/bW1Mz7ngCA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
-              <p>BoTW Guitar Cover | SamGriffin Guitar</p>
+              <p href="/guitar1">BoTW Guitar Cover | SamGriffin Guitar</p>
             </a>
           </Col>
           <Col size="sm-6 md-3" className="mb-4" name="1">
-            <a href="/">
+            <a href="/guitar2">
               <iframe width="210" height="160" src="https://www.youtube.com/embed/kxcVvaKDv1o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               
-              <p>Super Mario Odessy Guitar Cover | SamGriffin Guitar</p>
+              <p href="/guitar2">Super Mario Odessy Guitar Cover | SamGriffin Guitar</p>
             </a>
           </Col>
           <br />
