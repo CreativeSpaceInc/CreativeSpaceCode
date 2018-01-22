@@ -10,6 +10,10 @@ const artistSchema = mongoose.Schema({
     type: Schema.Types.ObjectId,
     ref: "Creation"
   },
+  artist: {
+    type: Schema.Types.ObjectId,
+    ref: "Artist"
+  },
   date: {
     type: Date, default: Date.now
   }
@@ -18,7 +22,7 @@ const artistSchema = mongoose.Schema({
 
 
 artistSchema.methods.encryptPassword = function(password) {
-    return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+  return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
 
 artistSchema.methods.validPassword = function(password){

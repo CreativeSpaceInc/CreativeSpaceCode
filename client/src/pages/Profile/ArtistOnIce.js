@@ -19,7 +19,7 @@ export class ArtistOnIce extends Component {
     email: "MNagasu@gmail.com",
     occupation: "Amateur Figure Skater",
     location: "Colorado, United States",
-    artist: "5a34a9d1afaabc1820db0b32"
+    artist: "5a56e2eb985d3115d4a77307"
   };
 
   render() {

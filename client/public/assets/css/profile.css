@@ -18,7 +18,7 @@ footer {
 
   	position: fixed;
   	bottom: 0px;
-  	overflow: auto;
+  	overflow: none;
   	clear: both;
   	min-width: 100%;
 
