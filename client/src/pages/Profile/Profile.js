@@ -163,7 +163,7 @@ export class Profile extends Component {
           </Col>
           <Col size="md-4">
             <h1 id="display-name" className="my-4">{this.state.displayname}</h1>
-            <img id="avatar" className="img-fluid" src={this.state.avatar} alt="Creator Profile Avatar" />
+            <img id="avatar" className="img-fluid" src={this.state.avatar} alt="Artist Profile Avatar" />
             <h3 className="my-3">My Bio</h3>
             <p id="bio">{this.state.bio}</p>
             <h3 className="my-3">My Details</h3>

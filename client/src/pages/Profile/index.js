@@ -4,3 +4,4 @@ export * from "./Margwli";
 export * from "./PinkSoda";
 export * from "./SamGriffinGuitar";
 export * from "./Profile";
+export * from "./Profile1";

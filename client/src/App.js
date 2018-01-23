@@ -7,7 +7,7 @@ import Editprofile from "./pages/Editprofile";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import NoMatch from "./pages/NoMatch";
-import { ArtistOnIce, JamesWaite, Margwli, PinkSoda, Profile, SamGriffinGuitar } from "./pages/Profile";
+import { ArtistOnIce, JamesWaite, Margwli, PinkSoda, Profile, Profile1, SamGriffinGuitar } from "./pages/Profile";
 import Signup from "./pages/SignUp";
 import Upload from "./pages/Upload";
 import Test from "./pages/Test"
@@ -174,6 +174,7 @@ class App extends React.Component{
               <Route exact path="/detail" component={Detail} />
               <Route exact path="/editprofile" component={Editprofile} />
               <Route exact path="/profile" component={Profile} />
+              <Route exact path="/profile1" component={Profile1} />
               //
               <Route exact path="/game" component={Assets} />
               <Route exact path="/dagger" component={Dagger} />
@@ -240,7 +241,7 @@ class App extends React.Component{
               <Route exact path="/artists/:id" componpent={Detail} />
               <Route exact path="/detail" component={Detail} />
               
-               <Route exact path="/game" component={Assets} />
+              <Route exact path="/game" component={Assets} />
               <Route exact path="/dagger" component={Dagger} />
               <Route exact path="/guitar1" component={Guitar1} />
               <Route exact path="/guitar2" component={Guitar2} />
@@ -266,6 +267,7 @@ class App extends React.Component{
 
               <Route exact path="/login" component={Profile} />
               <Route exact path="/profile" component={Profile} />
+              <Route exact path="/profile1" component={Profile1} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/upload" component={Upload} />
               <Route component={NoMatch} />
