@@ -1,3 +1,3 @@
 # CreativeSpaceCode
 
-![Artwork Home Gif](images/ArtworkHome.gif)
+![Creative Space Gif](gifs/CreativeSpace14Images.gif)
